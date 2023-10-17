@@ -1,0 +1,23 @@
+.container.inline {
+  width: 100%;
+  box-shadow: none;
+}
+
+.container {
+  font-family: "Inter", sans-serif;
+}
+
+.calendar > .days-grid > .day {
+  max-width: none;
+}
+
+:host {
+  --color-bg-inrange: #f6f7ff;
+  --color-fg-primary: #0022f9;
+  --color-fg-accent: #0022f9;
+}
+
+.container.range-plugin .calendar > .days-grid > .day.end,
+.container.range-plugin .calendar > .days-grid > .day.start {
+  border-radius: 50px;
+}
