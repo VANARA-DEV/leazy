@@ -3,12 +3,27 @@
   box-shadow: none;
 }
 
+.days-grid {
+  row-gap: none;
+}
+
 .container {
   font-family: "Inter", sans-serif;
 }
 
 .calendar > .days-grid > .day {
   max-width: none;
+  width: auto;
+}
+
+.day.start {
+  border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.day.end {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 :host {
