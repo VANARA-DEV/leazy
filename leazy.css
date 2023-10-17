@@ -4,7 +4,7 @@
 }
 
 .days-grid {
-  row-gap: none;
+  row-gap: 0;
 }
 
 .container {
@@ -17,13 +17,15 @@
 }
 
 .day.start {
-  border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+  border-radius: 0!important;
+  border-bottom-left-radius: 50px!important;
+  border-top-left-radius: 50px!important;
 }
 
 .day.end {
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-radius: 0!important;
+  border-top-right-radius: 50px!important;
+  border-bottom-right-radius: 50px!important;
 }
 
 :host {
