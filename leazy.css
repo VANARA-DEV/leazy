@@ -17,13 +17,11 @@
 }
 
 .day.start {
-  border-radius: 0!important;
   border-bottom-left-radius: 50px!important;
   border-top-left-radius: 50px!important;
 }
 
 .day.end {
-  border-radius: 0!important;
   border-top-right-radius: 50px!important;
   border-bottom-right-radius: 50px!important;
 }
@@ -32,9 +30,4 @@
   --color-bg-inrange: #f6f7ff;
   --color-fg-primary: #0022f9;
   --color-fg-accent: #0022f9;
-}
-
-.container.range-plugin .calendar > .days-grid > .day.end,
-.container.range-plugin .calendar > .days-grid > .day.start {
-  border-radius: 50px;
 }
